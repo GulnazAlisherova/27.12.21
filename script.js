@@ -56,8 +56,14 @@ function countdown(number) {
 
 
 function colorfulText(){
-  var end = Math.random() * 255;
+  var red = Math.random() * 255;
   var blue = Math.random() * 255;
   var green = Math.random() * 255; 
+
   document.write('<h1 style= "color: rgb(' + red + ', ' + green + ' , ' + blue + ')>')
 }
+
+
+var color = randomColor();
+colorfulText("Hello world!", color);
+colorfulText("Bye world!", color);

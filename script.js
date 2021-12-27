@@ -27,4 +27,8 @@ function calculateCylinderVolume(r, h) {
   return 3.14 * r *r * h;
 }
 
-var volume = calculateCylinderVolume(3, 4);
+var smallGlassVol = calculateCylinderVolume(3, 4);
+var bottleVol = calculateCylinderVolume(3, 10);
+
+console.log(smallGlassVol);
+console.log(bottleVol);

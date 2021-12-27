@@ -37,7 +37,5 @@ var bottleVol = calculateCylinderVolume(3, 10);
 // confirm();
 // prompt();
 
-document.write("Hello!");
-document.write(" World!");
-document.writeln("Bye world! ");
-document.writeln("Goodbye world!");
+// document.write("<h1>Hello world! </h1>");
+// document.writeln("<p>Goodbye world!</p>");

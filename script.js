@@ -41,5 +41,5 @@ var bottleVol = calculateCylinderVolume(3, 10);
 // document.writeln("<p>Goodbye world!</p>");
 
 function countdown(){
-  
+  for (let i = 0; i < 10; i++)
 }

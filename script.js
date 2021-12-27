@@ -46,5 +46,18 @@ function countdown(number) {
   }
 }
 
-countdown(5);
-countdown(15);
+// countdown(5);
+// countdown(15);
+
+// countdown(prompt("Enter the number!" , 100))
+
+// var number  = Math.random();
+// document.write(number);
+
+
+function colorfulText(){
+  var end = 100;
+  var blue = 0 ;
+  var green - 0 
+  document.write('<h1 style= >')
+}

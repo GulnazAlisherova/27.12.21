@@ -24,5 +24,5 @@ function calculateSquareArea(a, b) {
 // calculateSquareArea(1, 0);
 
 function calculateCylinderVolume(r, h) {
-  return
+  return 3.14 * r *r * h;
 }

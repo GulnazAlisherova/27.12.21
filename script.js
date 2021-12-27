@@ -15,7 +15,14 @@
 // callFriend("Seitek");
 // callFriend();
 
-
 function calculateSquareArea(a, b) {
   console.log(a * b);
+}
+
+// calculateSquareArea(5, 10);
+// calculateSquareArea(10, 11);
+// calculateSquareArea(1, 0);
+
+function calculateCylinderVolume(r, h) {
+  return
 }

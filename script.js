@@ -119,3 +119,4 @@ function getColorUsername() {
   document.write(colorfulName);
 }
 
+getColorUsername()

@@ -112,4 +112,10 @@
 // colorfulText(username , color);
 
 
-function getColorUsername
+function getColorUsername() {
+  var username = prompt("What's your name?");
+  var color = prompt("Which color?");
+  var colorfulName = `Welcome ` `<p style = "color:  `+ color +`;">` + username + `</p>`;
+  document.write(colorfulName);
+}
+
